@@ -1,0 +1,13 @@
+.div_fav {
+  align-content: center;
+}
+.div_btn {
+  width: 100%;
+}
+.btnAdd {
+  float: right;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+  margin-right: 1em;
+}

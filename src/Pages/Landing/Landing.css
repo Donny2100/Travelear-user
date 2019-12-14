@@ -1,0 +1,76 @@
+.Landing__column {
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+.Landing__column:last-child {
+  box-sizing: border-box;
+}
+.Landing__container {
+  align-content: center;
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  flex: 1;
+  padding-bottom: 30px;
+}
+.topdiv {
+  display:flex;
+  flex-direction: column;
+}
+.CustomJumbotron {
+  background-color: white;
+}
+.BoldFont {
+  font-weight: 700;
+}
+
+.txtBig {
+  font-size: 24px;
+  font-weight: 1000;
+}
+
+.txtMedium {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.txtSmall {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.customCardBody {
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(216, 216, 216);
+}
+
+.customCardText {
+  font-weight: 1000;
+}
+
+.customCard {
+  border-bottom-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 666px) {
+  .Landing__container {
+    align-content: center;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+  }
+  .customCard {
+    border-width: 1px;
+  }
+}
+

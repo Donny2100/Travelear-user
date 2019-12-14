@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  margin: 0
+}
+
+.input_extend {
+  width: 100%;
+}
+
+.term_check {
+  margin-top: 2em;
+}
+
+.signup_info {
+  margin-top: 5rem;
+}
+
+img {
+  width: 100%
+}
+
+Button {
+  width: 30%;
+}
+
+.contentform {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}

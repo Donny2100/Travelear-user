@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "travelear-fc8b2"
+  },
+  "targets": {
+    "travelear-fc8b2": {
+      "hosting": {
+        "landing": [
+          "travelear-landing"
+        ]
+      }
+    }
+  }
+}

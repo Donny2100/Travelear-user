@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+@font-face {
+  font-family: 'Prompt' !important;
+  src: url('https://fonts.googleapis.com/css?family=Prompt');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

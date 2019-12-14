@@ -1,0 +1,52 @@
+.introCreatorContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+.wideImgLoader {
+  margin-top: 0px;
+}
+
+.introPanel {
+  width: 100%;
+}
+.internal {
+  padding: 2em;
+  position: relative;
+  top:-15rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+ol { 
+  display: block;
+  list-style-position: outside;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20px;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+.btn {
+  margin-top: 1em;
+  width: 50%
+}
+.requireList{
+  padding-top: 2em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 666px) {
+  .internal {
+    padding: 1em;
+    top:0rem;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+

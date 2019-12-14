@@ -1,0 +1,75 @@
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 20px;
+
+}
+
+.NavItem {
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.hr_margin {
+  margin: 0px;
+}
+
+.menu-item {
+  padding: 0 40px;
+  margin: 10px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+  color: rgb(70, 70, 70);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+.menu-item-wrapper.active {
+  border: 0px blue solid;
+}
+
+.menu-item-wrapper .menu-item {
+  color: rgb(65, 65, 65);
+}
+
+.menu-item-wrapper.active .menu-item{
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+}
+  
+.menu-item a{
+  padding: 20px 20px;
+  display:block;
+
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+a, a:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 666px) {
+  .menu-item {
+    padding: 0 10px;
+    margin: 2px 5px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

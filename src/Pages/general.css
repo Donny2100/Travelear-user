@@ -1,0 +1,104 @@
+.BigCard {
+  width: 95%;
+  margin-left: 4.5%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background-color: rgb(255, 255, 255);
+  border: 0 !important;
+}
+.SmallCard {
+  width: 45%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 4.5%;
+  background-color: rgb(255, 255, 255);
+  border: 0 !important;
+}
+
+.BigCard_Pop {
+  width: 60%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 4%;
+  background-color: rgba(255, 255, 255);
+  border: 0 !important;
+}
+.SmallCard_Pop {
+  width: 28%;
+  margin: 1em;
+  margin-left: 4%;
+  margin-right: 0;
+  background-color: rgba(255, 255, 255);
+  border: 0 !important;
+}
+
+.SmallCard_Pop .smallcardview_img, .SmallCard .smallcardview_img {
+  height:200px;
+  overflow:hidden;
+}
+
+.SmallCard_Pop .smallcardview_img img, .SmallCard .smallcardview_img img {
+  max-width: 100%;
+}
+
+.smallcardview_cardtext {
+  margin-bottom: 0px;
+  font-size: 18px !important;
+}
+
+.smallcardview_cardtext_label {
+  margin-bottom: 0px;
+  font-size: 14px !important;
+}
+
+.audioPlayer {
+  position: relative;
+  bottom: 10px;
+}
+
+.text-right-custom {
+  text-align: right;
+}
+
+.card-header {
+  background-color: white !important;
+  padding-right:0 !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 666px) {
+  .SmallCard {
+    width: 95%;
+  }
+  .BigCard_Pop {
+    width: 90%;
+    margin: 1em;
+    background-color: rgba(255, 255, 255);
+    border: 0 !important;
+  }
+  .SmallCard_Pop {
+    width: 90%;
+    margin: 1em;
+    background-color: rgba(255, 255, 255);
+    border: 0 !important;
+  }
+  .audioPlayer {
+    position: relative;
+    bottom: 200px;
+  }
+  .text-right-custom {
+    text-align: left;
+  }
+}
+
+.content_margin {
+  height: 70px !important;
+}
+
+div.progress-bar {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}

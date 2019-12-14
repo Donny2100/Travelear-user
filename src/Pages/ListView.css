@@ -1,0 +1,32 @@
+.left-col {
+  text-align: right;
+  width: 25%;
+
+}
+.right-col {
+  text-align: left;
+}
+.end-col {
+  align-content: right;
+  
+}
+
+.place {
+  font-size: 1.5rem;
+}
+
+.closeButton{
+  height: 80%;
+  vertical-align: top;
+}
+.menuButton {
+  height: 50%;
+  vertical-align: bottom;
+}
+.bottomBtn{
+  vertical-align: bottom;
+}
+
+.btn:hover, .btn:focus, .btn:visited, .btn:active {
+  text-decoration: none;
+}

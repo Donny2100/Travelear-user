@@ -1,0 +1,28 @@
+.card_container {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardList {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.CityDescription{
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  border-top: 0px;
+  height: 100%;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
